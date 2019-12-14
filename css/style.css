@@ -1,0 +1,41 @@
+
+body {background: url("../imagenes/back.jpg"); font-family: verdana;}
+h1 {font-family: verdana;  font-size: 35px; color:white; text-align: right; }
+span {color:red;}
+
+#header {padding: 10px; background: url("../imagenes/header.jpg"); }
+#blanco {overflow: hidden; background-color: white; padding: 20px; }
+
+div.flexbox {display: flex; justify-content: center;}
+div.box {flex-flow: row wrap;
+		justify-content: space-between;
+
+	}
+
+.margin {margin-left: 20px; margin-right: 20px;}
+
+h2.personajes{background-color: red; padding: 15px; font-size: 20px; }
+h2.casting {background-color: blue; padding: 15px; font-size: 20px; }
+h2.rodaje {background-color: green; padding: 15px; font-size: 20px;}
+
+
+
+
+
+/*ejercicio anterior*/
+
+div.flotante { float: left; padding-right: 50px;}
+div.borde {border-right-style: dotted; outline-color: red ;}
+
+/*cambio display a none para que no se vea*/
+nav ul li {font-family: verdana; 
+	color: #660066; 
+	background-color: #cc33ff;
+	font-size: 15px; 
+	display: none;
+	position: relative;}
+
+nav ul li ul {display: none; }
+nav ul li:hover ul {display: block;position: absolute;}
+a:link {text-decoration: none;}
+/*fin anterior*/
